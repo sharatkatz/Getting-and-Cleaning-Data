@@ -1,5 +1,4 @@
 # run_analysis.R
-
 # initialize
 library(reshape2)
 library(dplyr)
@@ -56,6 +55,10 @@ bindSubj <- rbind(subject_train, subject_test)
 # 2. Extracts only the measurements on the mean and standard 
 #    deviation for each measurement
 bindx <- bindx[, grep("-(mean|std)\\(\\)", tolower(names(bindx)))]
+names(bindx) <- gsub("\\(\\)", "", names(bindx)) # remove "()"
+names(bindx) <- gsub("mean", "MEAN", names(bindx)) # capitalize mean
+names(bindx) <- gsub("std", "STD", names(bindx)) # capitalize std
+names(bindx) <- gsub("-", "", names(bindx)) # remove hyphen  
 dataElements <- cbind(bindy, bindSubj, bindx)
 
 
@@ -73,4 +76,3 @@ bindActivity2 <- tbl_df(bindActivity1) %>%
             group_by(Activity_ID, Activity_Label, Subject_ID) %>% 
          summarise_each(funs(mean))
 write.table(bindActivity2, file = "./tidy_data2.txt", row.names = F)
-
