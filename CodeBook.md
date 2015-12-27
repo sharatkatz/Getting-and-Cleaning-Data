@@ -16,6 +16,8 @@ Activities in above data was labeled using a reference table in file - 'activity
 
 Then mean of selected features was taken for each subject falling under each activity.
 
+11880 mean values are calculated as dataset has dimensions - 30 (subjects) X 6 (activity types) and 66 (features).
+
 Measures for which mean was calculated are:
 
 1-tBodyAcc-mean()-X;
