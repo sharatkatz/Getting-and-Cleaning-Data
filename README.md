@@ -9,7 +9,7 @@ This is the course project for the Getting and Cleaning Data Coursera course. Re
 
 4. Get only Mean and Standard Deviation of the measurements. This is done by identifying variable strings having '-mean()' or '-std()' substrings. 
 
-5. Bind subjects to measurements (mean() & std()) and y's.
+5. Column bind subjects to measurements (mean() & std()) and y's.
 
 6. Activity labels text file is supplied with appropriate column names.
 
