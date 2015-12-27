@@ -18,134 +18,134 @@ Then mean of selected features was taken for each subject falling under each act
 
 Measures for which mean was calculated are:
 
-1-tBodyAccMEANX; 
+1	tBodyAcc-mean()-X	;
 
-2-tBodyAccMEANY; 
+2	tBodyAcc-mean()-Y	;
 
-3-tBodyAccMEANZ; 
+3	tBodyAcc-mean()-Z	;
 
-4-tBodyAccSTDX; 
+4	tBodyAcc-std()-X	;
 
-5-tBodyAccSTDY; 
+5	tBodyAcc-std()-Y	;
 
-6-tBodyAccSTDZ; 
+6	tBodyAcc-std()-Z	;
 
-7-tGravityAccMEANX; 
+7	tGravityAcc-mean()-X	;
 
-8-tGravityAccMEANY; 
+8	tGravityAcc-mean()-Y	;
 
-9-tGravityAccMEANZ; 
+9	tGravityAcc-mean()-Z	;
 
-10-tGravityAccSTDX; 
+10	tGravityAcc-std()-X	;
 
-11-tGravityAccSTDY; 
+11	tGravityAcc-std()-Y	;
 
-12-tGravityAccSTDZ; 
+12	tGravityAcc-std()-Z	;
 
-13-tBodyAccJerkMEANX; 
+13	tBodyAccJerk-mean()-X	;
 
-14-tBodyAccJerkMEANY; 
+14	tBodyAccJerk-mean()-Y	;
 
-15-tBodyAccJerkMEANZ; 
+15	tBodyAccJerk-mean()-Z	;
 
-16-tBodyAccJerkSTDX; 
+16	tBodyAccJerk-std()-X	;
 
-17-tBodyAccJerkSTDY; 
+17	tBodyAccJerk-std()-Y	;
 
-18-tBodyAccJerkSTDZ; 
+18	tBodyAccJerk-std()-Z	;
 
-19-tBodyGyroMEANX; 
+19	tBodyGyro-mean()-X	;
 
-20-tBodyGyroMEANY; 
+20	tBodyGyro-mean()-Y	;
 
-21-tBodyGyroMEANZ; 
+21	tBodyGyro-mean()-Z	;
 
-22-tBodyGyroSTDX; 
+22	tBodyGyro-std()-X	;
 
-23-tBodyGyroSTDY; 
+23	tBodyGyro-std()-Y	;
 
-24-tBodyGyroSTDZ; 
+24	tBodyGyro-std()-Z	;
 
-25-tBodyGyroJerkMEANX; 
+25	tBodyGyroJerk-mean()-X	;
 
-26-tBodyGyroJerkMEANY; 
+26	tBodyGyroJerk-mean()-Y	;
 
-27-tBodyGyroJerkMEANZ; 
+27	tBodyGyroJerk-mean()-Z	;
 
-28-tBodyGyroJerkSTDX; 
+28	tBodyGyroJerk-std()-X	;
 
-29-tBodyGyroJerkSTDY; 
+29	tBodyGyroJerk-std()-Y	;
 
-30-tBodyGyroJerkSTDZ; 
+30	tBodyGyroJerk-std()-Z	;
 
-31-tBodyAccMagMEAN; 
+31	tBodyAccMag-mean()	;
 
-32-tBodyAccMagSTD; 
+32	tBodyAccMag-std()	;
 
-33-tGravityAccMagMEAN; 
+33	tGravityAccMag-mean()	;
 
-34-tGravityAccMagSTD; 
+34	tGravityAccMag-std()	;
 
-35-tBodyAccJerkMagMEAN; 
+35	tBodyAccJerkMag-mean()	;
 
-36-tBodyAccJerkMagSTD; 
+36	tBodyAccJerkMag-std()	;
 
-37-tBodyGyroMagMEAN; 
+37	tBodyGyroMag-mean()	;
 
-38-tBodyGyroMagSTD; 
+38	tBodyGyroMag-std()	;
 
-39-tBodyGyroJerkMagMEAN; 
+39	tBodyGyroJerkMag-mean()	;
 
-40-tBodyGyroJerkMagSTD; 
+40	tBodyGyroJerkMag-std()	;
 
-41-fBodyAccMEANX; 
+41	fBodyAcc-mean()-X	;
 
-42-fBodyAccMEANY; 
+42	fBodyAcc-mean()-Y	;
 
-43-fBodyAccMEANZ; 
+43	fBodyAcc-mean()-Z	;
 
-44-fBodyAccSTDX; 
+44	fBodyAcc-std()-X	;
 
-45-fBodyAccSTDY; 
+45	fBodyAcc-std()-Y	;
 
-46-fBodyAccSTDZ; 
+46	fBodyAcc-std()-Z	;
 
-47-fBodyAccJerkMEANX; 
+47	fBodyAccJerk-mean()-X	;
 
-48-fBodyAccJerkMEANY; 
+48	fBodyAccJerk-mean()-Y	;
 
-49-fBodyAccJerkMEANZ; 
+49	fBodyAccJerk-mean()-Z	;
 
-50-fBodyAccJerkSTDX; 
+50	fBodyAccJerk-std()-X	;
 
-51-fBodyAccJerkSTDY; 
+51	fBodyAccJerk-std()-Y	;
 
-52-fBodyAccJerkSTDZ; 
+52	fBodyAccJerk-std()-Z	;
 
-53-fBodyGyroMEANX; 
+53	fBodyGyro-mean()-X	;
 
-54-fBodyGyroMEANY; 
+54	fBodyGyro-mean()-Y	;
 
-55-fBodyGyroMEANZ; 
+55	fBodyGyro-mean()-Z	;
 
-56-fBodyGyroSTDX; 
+56	fBodyGyro-std()-X	;
 
-57-fBodyGyroSTDY; 
+57	fBodyGyro-std()-Y	;
 
-58-fBodyGyroSTDZ; 
+58	fBodyGyro-std()-Z	;
 
-59-fBodyAccMagMEAN; 
+59	fBodyAccMag-mean()	;
 
-60-fBodyAccMagSTD; 
+60	fBodyAccMag-std()	;
 
-61-fBodyBodyAccJerkMagMEAN; 
+61	fBodyBodyAccJerkMag-mean()	;
 
-62-fBodyBodyAccJerkMagSTD; 
+62	fBodyBodyAccJerkMag-std()	;
 
-63-fBodyBodyGyroMagMEAN; 
+63	fBodyBodyGyroMag-mean()	;
 
-64-fBodyBodyGyroMagSTD; 
+64	fBodyBodyGyroMag-std()	;
 
-65-fBodyBodyGyroJerkMagMEAN; 
+65	fBodyBodyGyroJerkMag-mean()	;
 
-66-fBodyBodyGyroJerkMagSTD; 
+66	fBodyBodyGyroJerkMag-std()	;
