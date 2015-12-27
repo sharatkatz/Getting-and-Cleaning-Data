@@ -81,4 +81,3 @@ Measures for which mean was calculated are:
 65	fBodyBodyGyroJerkMagMEAN
 66	fBodyBodyGyroJerkMagSTD
 
-
