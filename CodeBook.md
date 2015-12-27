@@ -1,7 +1,10 @@
 # Code Book for run_analysis.R
 There are three pieces of information required - 
+
 a. Subjects
+
 b. Features
+
 c. Classifications
 
 Subjects(1-30) are those on which experiment was carried out recording measurements/features via a smartphone, which could be used for classification of position as: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING and LAYING. This was labled with the help of video recording.
@@ -14,6 +17,7 @@ Activities in above data was labeled using a reference table in file - 'activity
 Then mean of selected features was taken for each subject falling under each activity.
 
 Measures for which mean was calculated are:
+
 1-tBodyAccMEANX; 
 
 2-tBodyAccMEANY; 
